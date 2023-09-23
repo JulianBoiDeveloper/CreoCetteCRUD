@@ -1,0 +1,112 @@
+@font-face {
+    font-family: alwaysSmile;
+    src: url('../media/font/Always Smile.otf');
+}
+
+body,html{
+    padding: 0;
+    margin: 0;
+    background-color: #e8dcca;
+    
+
+}
+.custom_title{
+    font-family: alwaysSmile;
+    font-size: 1.8rem;
+    position: relative;
+    top: 10px;
+}
+.custom_button_login{
+    font-family: Arial;
+    background-color: #e8dcca;
+    border: 0px;
+    position: relative;
+    top: 6.5px;
+    margin: 0.2rem;
+    height: 2.35rem;
+}
+.custom_button_login:hover{
+    background-color: #e8dcca;
+    border: 1px solid black;
+}
+    #Menu_tel{
+    display: none;
+
+}
+.custom_search:focus{
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 0px;
+}
+.custom_button_search{
+    font-family: Arial;
+    font-size: 0.8rem;
+    background-color: #e8dcca;
+    border: 0px;
+    color:white;
+}
+.custom_button_search:hover{
+    background-color: #e8dcca;
+    border: 1px solid black;
+    color: white;
+}
+.custom_menu{
+    background-color: #a18167;
+}
+.custom_login{
+    background-color: #e8dcca !important;
+
+}
+.custom_profil{
+    margin: 15px;
+    color: white;
+    font-weight: bold;
+}
+.custom_profil:hover{
+    background-color: #e8dcca;
+}
+
+.custom_a{
+    text-decoration: none !important;
+    color: black;
+}
+.custom_a:hover{
+    text-decoration: none !important;
+    color: black;
+}
+/** Small devices (landscape phones, 576px and up) **/
+@media (min-width: 576px) {
+    #Menu_tel{
+        display: none;
+    }
+
+}
+
+/** Medium devices (tablets, 768px and up) **/ 
+@media (min-width: 768px) {
+    #Menu_tel{
+        display: none;
+    }
+}
+
+/** Large devices (desktops, 992px and up) **/
+@media (min-width: 992px) { 
+    #Menu_tel{
+        display: block;
+    }
+}
+
+/** X-Large devices (large desktops, 1200px and up) **/
+@media (min-width: 1200px) { 
+    #Menu_tel{
+        display: block;
+    }
+}
+
+/** XX-Large devices (larger desktops, 1400px and up) **/
+@media (min-width: 1400px) { 
+    #Menu_tel{
+        display: block;
+    }
+}
